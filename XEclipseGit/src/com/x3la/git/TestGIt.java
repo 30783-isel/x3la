@@ -6,7 +6,7 @@ public class TestGIt {
 		String[] names = {"Bilbo", "Frodo", "Aragorn", "Legolas", "Gandalf"};
 		
 		for(int i = 0; i < names.length; i++) {
-			System.out.format("Hello, %s \n", names[i]);
+			System.out.format("%s - Hello, %s \n", String.valueOf(i), names[i]);
 		}
 	}
 }
