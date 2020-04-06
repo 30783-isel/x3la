@@ -10,9 +10,10 @@ public class TestGIt {
 		String[] names = {"Bilbo", "Frodo", "Aragorn", "Legolas", "Gandalf", "Boromir", "Faramir"};
 		
 		//print names
+		int i = 1;
 		for(String name : names) {
-			System.out.format("Hello, %s \n", name);
-			System.out.println("What the hell you gonna do today.");
+			System.out.format("%d - Hello, %s \n", i, name);
+			i++;
 		}
 	}
 }
